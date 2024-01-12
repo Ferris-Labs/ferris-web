@@ -1,0 +1,43 @@
+<!-- Header / tagline block-->
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+    <head>
+        {{ partial "headers.html" . }}
+        {{ partial "custom_headers.html" . }}
+    </head>
+
+    <body>
+
+        <div id="all">
+
+            <!-- {{ partial "top.html" . }} -->
+
+            {{ partial "navbar.html" . }}
+
+            {{ partial "hero.html" . }}
+
+            {{ partial "problem.html" . }}
+
+            {{ partial "focus.html" . }}
+
+            {{ partial "solutions.html" . }}
+
+            {{ partial "quick_starter.html" . }}
+
+            {{ partial "testimonial.html" . }}
+
+            {{ partial "scrolling_banner.html" . }}
+
+            {{ partial "cta.html" . }}
+
+            {{ partial "footer.html" . }}
+
+        </div>
+        <!-- /#all -->
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+
+</html>
