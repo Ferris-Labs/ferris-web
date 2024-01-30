@@ -1,21 +1,27 @@
 <!-- Ferris Platform -- Tabbed View -->
-<section class="padding-block-900">
-    <div class="container"
-        style="background-color: var(--clr-neutral-lightgray); padding: 20pt 20pt 20pt 20pt; border: 1pt solid var(--clr-neutral-gray); border-radius: 10pt;">
+<section class="padding-block-700">
+    <div class="container" style="background-color: 
+        var(--clr-neutral-lightgray); 
+        padding: 2em 5em; 
+        border: 1pt solid var(--clr-neutral-lightgray); 
+        border-radius: 10pt;
+        box-shadow: 1px 1px var(--clr-neutral-gray);
+        opacity: 0.9;">
         <div class="row">
             <h2 class="fs-secondary-heading fw-bold">The Ferris Platform</h2>
-            <p style="text-align: left; margin-bottom: 25pt; color: var(--clr-primary-black); line-height: 1.5;">
-                Ferris is a cutting-edge Data and Services Integration Platform, best viewed as a Platform as a Service
-                (PaaS). It is designed to expedite the development, deployment, and operation of applications for
-                engineering
-                and DevOps teams. Notably, Ferris offers a robust ecosystem featuring pre-built edge adaptors, open
-                APIs, and
-                services, fostering enhanced efficiency and reusability in application development.
-                <br><br>
-                Furthermore, the platform is well-suited to harness emerging technologies like openAI, providing
-                businesses with
-                the opportunity to test and leverage the latest advancements in their operations and capabilities.
+            <p style="text-align: left; 
+                    margin-bottom: 25pt; 
+                    color: var(--clr-primary-black); 
+                    line-height: 1.5;">
+                Ferris is a cutting-edge Data and Services Integration Platform, best viewed as an Integration Platform
+                as a Service
+                (iPaaS). It is designed to expedite the development, deployment, and operation of applications for
+                engineering and DevOps teams. Notably, Ferris offers a robust ecosystem featuring pre-built edge
+                adaptors, open
+                APIs, and services, fostering enhanced efficiency and reusability in application development.
             </p>
+
+            <!-- Title Tabs -->
             <div class="tab-container">
                 <button class="tab tablink" onclick="openProduct(event, 'executor')" id="defaultOpen">Ferris
                     Executor</button>
@@ -24,82 +30,96 @@
                     Management</button>
                 <button class="tab tablink" onclick="openProduct(event, 'platform')">Ferris Platform Technology</button>
             </div>
+
+            <!-- Tab Content Boxes  -->
             <div class="tab-content-container">
                 <div id="executor" class="tabcontent">
                     <h3>Development and Orchestration of Services</h3>
-                    <p>Ferris Executor (FX) is the core platform service, built to develop, orchestrate,
-                        deploy
-                        and even operate event based applications. With the Executor, teams build and operate
-                        fully automated service flows such as data ingestions, data quality, cross-cloud processes,
-                        large language models (eg. ChatGPT), or refactoring of legacy services.</p>
-                    <p>The unique low learning curve approach significantly reduces the cost of deploying
+                    <p>Ferris Executor (FX) is the core platform service, built to develop,
+                        orchestrate, deploy and even operate event based applications. With the Executor, teams build
+                        and operate fully automated service flows such as data ingestions, data quality, cross-cloud
+                        processes, large language models (eg. ChatGPT), or refactoring of legacy services.
+                        <br><br>
+                        The unique low learning curve approach significantly reduces the cost of deploying
                         enterprise wide process and integration pipelines across disparate systems at speed.
                         While at the same time creating a platform with practically unbound access and ease of
-                        integration.</p>
-                    <p>FX is a ground-up rethink of how both sync and async microservices are built in multi-cloud,
-                        highly volatile and fragmented software environments.</p>
-                    <p>On FX you are effectively writing large applications by connecting “blocks” of code
+                        integration.
+                        <br><br>
+                        FX is a ground-up rethink of how both sync and async microservices are built in multi-cloud,
+                        highly volatile and fragmented software environments.
+                        <br><br>
+                        On FX you are effectively writing large applications by connecting “blocks” of code
                         (services) through events. An approach that is highly intuitive and in line with iterative
-                        agile practices.</p>
-                    <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                        agile practices.
+                        <br><br>
+                        <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                    </p>
                 </div>
                 <div id="events" class="tabcontent">
                     <h3>Streaming Automation and Edge Adaptors</h3>
-                    <p>Ferris is built as an Event based Serices Architecture, combing the notion of events (triggers)
+                    <p>Ferris is built as an Event based Serices Architecture, combing the notion of
+                        events (triggers)
                         and services (individual tasks). In simple terms, it is a system where different components or
                         services communicate and respond to events. Events are occurrences or notifications that can
                         trigger specific actions or processes. Instead of services constantly polling or checking for
-                        updates, they subscribe to events and react when those events occur.</p>
-
-                    <p>Examples of events may be the simple user registration in a web service, a stock trade on an
+                        updates, they subscribe to events and react when those events occur.
+                        <br><br>
+                        Examples of events may be the simple user registration in a web service, a stock trade on an
                         exchange
-                        service, or the updating of patient records in a hospital system.</p>
-
-                    <p>The end result of combining events and services are fully automated business
+                        service, or the updating of patient records in a hospital system.
+                        <br><br>
+                        The end result of combining events and services are fully automated business
                         processes, whereas the combination and orchestration of event and services chains are open
-                        and sheer endless.</p>
-
-                    <p>A large and growing number of pre-built Edge Adaptors facilitates a fast and easy integration
+                        and sheer endless.
+                        <br><br>
+                        A large and growing number of pre-built Edge Adaptors facilitates a fast and easy integration
                         of source systems with Ferris. Where there are no pre-built adaptors, new ones can be built
                         using
-                        Edge Templates.</p>
-                    <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                        Edge Templates.
+                        <br><br>
+                        <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                    </p>
                 </div>
                 <div id="containers" class="tabcontent">
                     <h3>Kubernetes Platform</h3>
-                    <p>Ferris has incorporated Kubernetes as a fundamental element in its technology stack, streamlining
+                    <p>Ferris has incorporated Kubernetes as a fundamental element in its technology
+                        stack, streamlining
                         the
                         implementation of Ferris across diverse infrastructures. This includes setups such as
                         cross-cloud, multi-cloud,
-                        and inter-cloud configurations.</p>
-                    <p>In the realm of Kubernetes setups, there are two distinct flavors, each complementing the other:
-                    </p>
+                        and inter-cloud configurations.
+                        <br><br>
+                        In the realm of Kubernetes setups, there are two distinct flavors, each complementing the other:
+                        <br><br>
                     <ul style="margin-left: 20px;">
                         <li>Firstly, there's the basic Static Container Management setup, offering extensive container
-                            orchestration
-                            capabilities across various clouds and programming languages.</li>
+                            orchestration capabilities across various clouds and programming languages.</li>
                         <li>Secondly, the Event-driven Kubernetes setup supports services and automations triggered by
-                            events. In this
-                            configuration, pods remain dormant until awakened by specific trigger events. This approach
-                            ensures optimal
-                            resource utilization, keeping potentially expensive cloud compute resources at a bare
+                            events. In this configuration, pods remain dormant until awakened by specific trigger
+                            events. This approach
+                            ensures optimal resource utilization, keeping potentially expensive cloud compute resources
+                            at a bare
                             minimum.</li>
-                    </ul margin-left: 20px;>
-                    <br>
-                    <p>Ferris also introduced the Kubernetes based concept of " ephemeral events management,"
-                        signifying that events occur fleetingly, lasting only for a brief moment. To accommodate this
-                        brief duration, Ferris has created a technology facilitating cross-cloud and multi-language
-                        events management. This technology is ultra effective, using a bare minimum of compute resources
-                        and allows for the flexible orchestration of events and services, regardless of their
-                        origin.</p>
+                    </ul>
+                    <br><br>
+                    Ferris also introduced the Kubernetes based concept of " ephemeral events management,"
+                    signifying that events occur fleetingly, lasting only for a brief moment. To accommodate this
+                    brief duration, Ferris has created a technology facilitating cross-cloud and multi-language
+                    events management. This technology is ultra effective, using a bare minimum of compute resources
+                    and allows for the flexible orchestration of events and services, regardless of their
+                    origin.
+                    <br><br>
                     <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                    </p>
                 </div>
                 <div id="platform" class="tabcontent">
                     <h3>Ferris Technology</h3>
-                    <p>The Ferris technology architecture is based on open technology components and standards to
+                    <p class="cutoff-txt">The Ferris technology architecture is based on open technology components and
+                        standards to
                         accomodate a maximum
                         of openness and integration capabilities. We maintain strictr architecture and design principles
-                        to ensure:</p>
+                        to ensure:
+                        <br><br>
                     <ul style="margin-left: 20px;">
                         <li>Scalability and performance</li>
                         <li>Architectural flexibility</li>
@@ -109,14 +129,17 @@
                         <li>Infrastructure resources efficiency</li>
                         <li>Avoiding technology lock-in!</li>
                     </ul>
-                    <br>
-                    <p>The Ferris Platform is built to serve enterprise grade applications. Integration, performance,
-                        realiability and robustness
-                        as well as a high degree of security are therefore core to our standards.</p>
-                    <p>While we use open technologies and standards, such as Kubernetes and Kafka, we always aim to
-                        advance these technologies
-                        and make them even better!</p>
+                    <br><br>
+                    The Ferris Platform is built to serve enterprise grade applications. Integration, performance,
+                    realiability and robustness
+                    as well as a high degree of security are therefore core to our standards.
+                    <br><br>
+                    While we use open technologies and standards, such as Kubernetes and Kafka, we always aim to
+                    advance these technologies
+                    and make them even better!
+                    <br><br>
                     <a href="https://docs.ferrislabs.net/docs/" target="_blank" class="text-primary">Learn more</a>
+                    </p>
                 </div>
             </div>
         </div>

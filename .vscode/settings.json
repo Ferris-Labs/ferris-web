@@ -1,4 +1,4 @@
 {
     "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": true
 }
