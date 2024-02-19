@@ -1,20 +1,14 @@
 ---
-linkTitle: "Ferris DevelopmentPlatform"
+linkTitle: "Ferris Development Platform"
 descriptions: "Develop, deploy and operate fully automated and microservices based applications"
 keywords: "microservices, event based development, ipaas"
 ---
 
-<section class="sub-hero">
-    <div class="sub-hero-container">
-        <div class="flow">
-            <h1 class="fs-primary-heading fw-bold">Event Based Engineering</h1>
-            <p class="lead"> The ease and ability to wire and re-wire services at will and integrate across clouds
-                and systems.
-            </p>
-            <div>
-            </div>
-        </div>
-    </div>
+
+<!-- PAGER HEADER -->
+<section class="sub-header">
+		<h1>Event Based Engineering</h1>
+		<p>The ease and ability to wire and re-wire services at will and integrate across clouds and systems.</p>
 </section>
 
 
@@ -41,4 +35,16 @@ keywords: "microservices, event based development, ipaas"
     </div>
 </section>
 
-<!-- Red block with Traingle down -->
+<!-- SIMPLICITY -->
+<section class="padding-block-900 bg-accent-400 text-neutral-100" style="text-align: center;">
+    <h1 class="fs-secondary-heading"
+        style="font-weight: var(--fw-bold); margin-bottom: 1rem; color: var(--color-primary-black);">Simplicity!</h1>
+    <p style="font-size: var(--fs-650);">The Ferris Platform just got even easier!</p>
+    <br>
+    <p style="font-size: var(--fs-600);">We have simplified Ferris even more. The Executor, Event Driven Kubernetes,
+		Standing Pods Orchestration and Streaming Automation now are all part of one and the same Ferris FX service.</p>
+</section>
+
+<section>
+...
+</section>

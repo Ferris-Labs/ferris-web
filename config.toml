@@ -196,6 +196,9 @@ enable = false
 [[params.links.footer.left]]
   name = "Partners"
   url = "/partners"
+[[params.links.footer.left]]
+  name = "Product"
+  url = "/product"
 
 [[params.links.footer.center]]
   name = "Linkedin"

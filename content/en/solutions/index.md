@@ -4,19 +4,10 @@ descriptions: "Develop, deploy and operate fully automated and microservices bas
 keywords: "microservices, event based development, ipaas"
 ---
 
-<section class="sub-hero">
-    <div class="sub-hero-container">
-        <div class="flow">
-            <h1 class="fs-primary-heading fw-bold">Event Based Engineering</h1>
-            <p class="lead"> The ease and ability to wire and re-wire services at will and integrate across clouds
-                and systems.
-            </p>
-            <div>
-            </div>
-        </div>
-    </div>
+<section class="sub-header">
+		<h1>Event Based Engineering</h1>
+		<p>The ease and ability to wire and re-wire services at will and integrate across clouds and systems.</p>
 </section>
-
 
 <section class="padding-block-700">
     <h2 class="fs-secondary-heading fw-bold" style="text-align: center; padding-block: 0.5em;">The Smart Tech Grid</h2>
@@ -25,7 +16,7 @@ keywords: "microservices, event based development, ipaas"
             <img src="/img/case1-01.png" alt="graph icon">
         </div>
         <div class="column">
-            <p class="lead"> The Ferris Technology Platform is 100% infrastructure agnostic. Built to run on any
+            <p class="lead">XXX The Ferris Technology Platform is 100% infrastructure agnostic. Built to run on any
                 cloud or inhouse systems it is deployed in no time.
                 <br><br>
                 Project teams develop, deploy and operate applications from day one!
@@ -40,5 +31,3 @@ keywords: "microservices, event based development, ipaas"
         </div>
     </div>
 </section>
-
-<!-- Red block with Traingle down -->

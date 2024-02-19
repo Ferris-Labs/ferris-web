@@ -301,11 +301,12 @@ footer .grid-container li a:hover {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   line-height: 1;
-  font-size: 1.1rem;
+  font-size: var(--fs-600);
 }
 
 .numbered-items__body {
   grid-column: 1 / -1;
+  font-size: var(--fs-600);
 }
 
 @media (min-width: 30em) {
@@ -528,7 +529,7 @@ footer .grid-container li a:hover {
 }
 
 .bg-accent-100 {
-  background-color: var(--clr-accent-100);
+  background-color: var(--clr-neutral-darkgray);
 }
 
 .bg-neutral-100 {
@@ -754,7 +755,7 @@ footer .grid-container li a:hover {
 .three-columns {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 50px;
+  gap: 25px;
   padding: 20px;
   justify-content: center;
   /* Center the columns horizontally */
@@ -773,7 +774,7 @@ footer .grid-container li a:hover {
 }
 
 .column-border {
-  border: 2px solid var(--clr-primary-black);
+  border: 1px solid var(--clr-primary-black);
   border-radius: 25px;
   padding: 30px;
 }
@@ -823,7 +824,7 @@ footer .grid-container li a:hover {
 .quote {
   box-sizing: border-box;
   font-size: var(--fs-650);
-  font-weight: lighter;
+  font-weight: var(--fw-regular);
   padding: 0 5rem 0 8rem;
 }
 
@@ -864,7 +865,6 @@ footer .grid-container li a:hover {
 
 .logos-slide {
   display: flex;
-  /* Updated to flex instead of inline-block */
   animation: slide 20s linear infinite;
   animation-delay: 1s;
 }
@@ -875,6 +875,7 @@ footer .grid-container li a:hover {
   margin: 0 20px;
 }
 
+/* TABS */
 .tab-container {
   display: flex;
   width: 100%;
@@ -895,7 +896,7 @@ footer .grid-container li a:hover {
 }
 
 .tab.tablink:hover {
-  background-color: var(--clr-neutral-lightgray);
+  background-color: var(--clr-neutral-white);
 }
 
 .tab.tablink.active-tab {
@@ -907,6 +908,7 @@ footer .grid-container li a:hover {
   width: 100%;
   border: 1px solid var(--clr-neutral-gray);
   border-radius: 0 5pt 5pt 5pt;
+  background-color: var(--clr-neutral-lightgray);
 }
 
 .tabcontent {
@@ -926,13 +928,32 @@ footer .grid-container li a:hover {
 .tabcontent p {
   color: var(--clr-primary-black);
   font-size: var(--fs-body);
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
-/* .cutoff-txt {
-  --max-lines: 6;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: var(--max-lines);
-} */
+/* SUB-PAGE HEADERS */
+.sub-header {
+  background-color: #b81414;
+}
+
+.sub-header body {
+  margin: 0;
+  padding: 0;
+}
+
+.sub-header h1 {
+  font-size: var(--fs-primary-heading);
+  font-weight: var(--fw-bold);
+  line-height: 1.1;
+  color: var(--clr-primary-white);
+  text-align: center;
+  padding-block: 25pt 25pt;
+}
+
+.sub-header p {
+  font-size: var(--fs-650);
+  line-height: 1.1;
+  color: var(--clr-neutral-lightgray);
+  text-align: center;
+  padding-block: 0pt 25pt;
+}
