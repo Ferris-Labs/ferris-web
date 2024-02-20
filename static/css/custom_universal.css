@@ -150,6 +150,13 @@ p:not([class]) {
   color: var(--clr-primary-white);
 }
 
+.lead-black {
+  font-size: var(--fs-600);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-black);
+  opacity: 0.9;
+}
+
 p[data-width="wide"] {
   max-width: 42ch;
 }
