@@ -11,7 +11,7 @@
   --clr-accent-red: hsl(0, 80%, 40%);
   --clr-accent-blue: hsl(217, 48%, 39%);
 
-  --font-family: 'Work Sans', sans-serif;
+  --font-family: "Work Sans", sans-serif;
 
   --ff-body: var(--font-family);
   --ff-heading: var(--font-family);
@@ -131,7 +131,6 @@ svg {
 }
 
 /* general styling */
-
 body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
@@ -150,11 +149,32 @@ p:not([class]) {
   color: var(--clr-primary-white);
 }
 
-.lead-black {
+.lead-black-l {
+  font-size: var(--fs-650);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-black);
+}
+
+.lead-black-m {
   font-size: var(--fs-600);
   font-family: var(--ff-body);
   color: var(--clr-primary-black);
   opacity: 0.9;
+}
+
+.lead-black-s {
+  font-size: var(--fs-400);
+  font-family: var(--ff-body);
+  color: var(--clr-primary-black);
+  text-align: justify;
+  opacity: 0.7;
+}
+
+.read-more {
+  font-size: var(--fs-400);
+  font-family: var(--ff-body);
+  color: var(--clr-accent-red);
+  opacity: 0.7;
 }
 
 p[data-width="wide"] {
