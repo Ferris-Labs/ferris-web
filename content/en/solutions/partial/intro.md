@@ -1,15 +1,18 @@
+---
+linkTitle: "Ferris Solutions for Business and IT"
+descriptions: "Develop and deliver solutions fast and with a long term strategy in mind"
+keywords: "use cases, refactor, legacy, modernize"
+---
+
 <!-- PROBLEM STATEMENT section -->
-<section
-  class="padding-block-700"
-  style="background-color: var(--clr-primary-white)"
->
+<section class="padding-block-700" style="background-color: var(--clr-primary-white)">
   <div class="container">
     <div class="even-columns">
       <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem">
         <h2 class="fs-secondary-heading fw-bold">
           How do you bridge the demand-gap?
         </h2>
-        <p class="lead-black-l" style="opacity: 0.7">
+        <p class="lead" style="color: var(--clr-primary-black); opacity: 0.7">
           Catering to the immediate business needs often results in tactical
           solutions, built on a 'business as usual' approach. The result: less
           than satisfactory solutions and an ever increasing legacy bow-wave!
@@ -46,24 +49,21 @@
       </div>
     </div>
   </div>
-</section>
+  <hr
+    class="hr-text-red"
+    data-content="RESULTING ISSUES"
+    style="margin-block: 3rem"
+  />
 
-<hr
-  class="hr-text-red"
-  data-content="RESULTING ISSUES"
-  style="margin-block: 3rem"
-/>
-
-<!-- ISSUES METRICS section-->
-<section class="padding-block-400">
+  <!-- ISSUES METRICS section-->
   <div class="container">
     <div class="three-columns">
-      <div class="column-border" style="background-color: white">
+      <div class="column-border">
         <h3 class="fw-bold" style="font-size: var(--fs-650)">Time to Market</h3>
         <img
-          src="img/diamond-1.svg"
+          src="img/icon-hamburger.svg"
           alt="Hamburger Icon"
-          style="padding-top: 1.2rem; max-height: 100px"
+          style="padding-top: 1.2rem"
         />
         <div
           class="fw-regular"
@@ -104,17 +104,17 @@
           class="fw-regular"
           style="font-size: var(--fs-600); opacity: 0.6; font-style: italic"
         >
-          unpredictable delievry and delays targets
+          unpredictable delievry and delays
         </h3>
       </div>
-      <div class="column-border" style="background-color: white">
+      <div class="column-border">
         <h3 class="fw-bold" style="font-size: var(--fs-650)">
           Operating Costs
         </h3>
         <img
-          src="img/diamond-2.svg"
+          src="img/icon-hamburger.svg"
           alt="Hamburger Icon"
-          style="padding-top: 1.2rem; max-height: 100px"
+          style="padding-top: 1.2rem"
         />
         <div
           class="fw-regular"
@@ -155,17 +155,17 @@
           class="fw-regular"
           style="font-size: var(--fs-600); opacity: 0.6; font-style: italic"
         >
-          increasing maintenance overhead costs
+          increasing maintenance overhead
         </h3>
       </div>
-      <div class="column-border" style="background-color: white">
+      <div class="column-border">
         <h3 class="fw-bold" style="font-size: var(--fs-650)">
           Opportunity Loss
         </h3>
         <img
-          src="img/diamond-3.svg"
+          src="img/icon-hamburger.svg"
           alt="Hamburger Icon"
-          style="padding-top: 1.2rem; max-height: 100px"
+          style="padding-top: 1.2rem"
         />
         <div
           class="fw-regular"

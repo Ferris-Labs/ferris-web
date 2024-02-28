@@ -1,40 +1,32 @@
 ---
 linkTitle: "Ferris Development Platform"
 descriptions: "Develop, deploy and operate fully automated and microservices based applications"
-keywords: "microservices, event based development, ipaas"
+keywords: "microservices, event based development, paas"
 ---
 
-<!-- PAGER HEADER -->
+<!-- FERRIS PLATFORM -->
 <section class="sub-header">
-		<h1>Event Based Engineering</h1>
-		<p>The ease and ability to wire and re-wire services at will and integrate across clouds and systems.</p>
+		<h1 id="ferris-platform">The Event Based <br> Engineering Platform</h1>
 </section>
 
 <!-- PAGE INTRO -->
 <section class="padding-block-700">
-    <h2 class="fs-secondary-heading fw-bold" style="text-align: center; padding-block: 0.5em;">The Smart Tech Grid</h2>
-    <div class="two-column-grid">
-        <div class="column">
-            <img src="/img/header-image-1.png" alt="graph icon" style="max-height: 400px;">
-        </div>
-        <div class="column">
-            <p class="lead-black-l">The Ferris Technology Platform is 100% infrastructure agnostic. Built to run on any
-                cloud or inhouse systems it is deployed in no time.</p><br>
-			<p class="lead-class-l">Project teams develop, deploy and operate applications from day one!</p><br>
-			<p class="lead-class-l">Leverage pre-built code templates, edge adaptors and streaming configurations to orchestrate
-                services fast.</p><br>
-			<p class="lead-class-l">Gain complete control over your engineering process, from start to finish. Enabling engineering
-                teams to work independently and autonomously.</p>
-        </div>
-    </div>
+<div class="container">
+    <!-- <h2 class="fs-secondary-heading fw-bold" style="text-align: left; padding-block: 0.5em;">The Smart Tech Grid</h2> -->
+		<div class="two-column-grid">
+			<div class="column">
+				<p class="lead-black-l">Project teams develop, deploy and operate applications from day one!</p><br>
+				<p class="lead-black-l">Leverage pre-built code templates, edge adaptors and streaming configurations to orchestrate
+					services fast. Wire and re-wire services at will and integrate across clouds and systems</p><br>
+				<p class="lead-black-l">Ferris Technology Platform is 100% infrastructure agnostic. Built to run on any
+					cloud or inhouse systems it is deployed in no time.</p><br>
+			</div>
+			<div class="column">
+				<img src="/img/header-image-1.png" alt="graph icon" style="max-height: 400px;">
+			</div>
+		</div>
+	</div>
 </section>
-
-<!-- SIMPLICITY -->
-<!-- <section class="padding-block-700 bg-accent-400 text-neutral-100" style="text-align: center;">
-    <h1 class="fs-secondary-heading"
-        style="font-weight: var(--fw-bold); margin-bottom: 1rem; color: var(--color-primary-black);">Simplicity!</h1>
-    <p style="font-size: var(--fs-650);">The Ferris Platform just got even easier!</p>
-</section> -->
 
 <!-- Horizontal Line  -->
 <hr class="hr-text-black" data-content="SIMPLE" style="margin-block: 3rem" />
@@ -42,7 +34,7 @@ keywords: "microservices, event based development, ipaas"
 <!-- MICROSERVICES -->
 <section class="padding-block-900" style="background-color: var(--clr-primary-white);">
     <div class="container">
-        <h2 class="fs-secondary-heading fw-bold">Event based<br><font color="var(--clr-accent-red)">Microservices</font></h2>
+		<h2 class="fs-secondary-heading fw-bold">Event based<br><span style="color: #b81414;">Microservices</span></h2>
             <div class="even-columns" style="padding-top: 2rem">
                 <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem; padding-right: 2rem">
                     <p class="lead-black-m">Ferris FX, <i>also known as the Executor,</i> ist the flagship service within
@@ -73,7 +65,7 @@ keywords: "microservices, event based development, ipaas"
 <!-- EVENT MANAGEMENT -->
 <section class="padding-block-900" style="background-color: var(--clr-primary-white);">
     <div class="container">
-        <h2 class="fs-secondary-heading fw-bold">Edge based<br><font color="var(--clr-accent-red)">Event Managmenet</font></h2>
+		<h2 class="fs-secondary-heading fw-bold">Edge based<br><span style="color: #b81414;">Event Management</span></h2>
             <div class="even-columns" style="padding-top: 2rem">
                 <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem; padding-right: 2rem">
                     <p class="lead-black-m">Apache Kafka is at the heart of Ferris Streaming Automation (Ferris SX), 
@@ -102,7 +94,7 @@ keywords: "microservices, event based development, ipaas"
 <!-- KUBERNETES -->
 <section class="padding-block-900" style="background-color: var(--clr-primary-white);">
     <div class="container">
-        <h2 class="fs-secondary-heading fw-bold">Event Driven<br><font color="var(--clr-accent-red)">Kubernetes</font></h2>
+		<h2 class="fs-secondary-heading fw-bold">Event driven<br><span style="color: #b81414;">Kubernetes</span></h2>
             <div class="even-columns" style="padding-top: 2rem">
                 <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem; padding-right: 2rem">
                     <p class="lead-black-m">Ferris has put event awareness into the Kubernetes Container Orchestration, making it the most resources conscious infrastructure cluster management platform.</p>
@@ -123,13 +115,17 @@ keywords: "microservices, event based development, ipaas"
     </div>
 </section>
 
-<!-- Horizontal Line  -->
-<hr class="hr-text-black" data-content="TECHNOLOGY" style="margin-block: 3rem" />
+<!-- FERRIS PLATFORM -->
+<section class="sub-header">
+		<h1 id="ferris-technology">Ferris Open Technology</h1>
+		<p>Connect, integrate and operate anywhere. Speed, efficiency and resource friendly - you did not think possible!</p>
+
+</section
 
 <!-- Ferris Features - Accordion Section -->
 <section class="padding-block-900">
 	<div class="container">
-		<p class="fs-secondary-heading fw-bold" style="text-align: left;">Feature Rich<br><font color="var(--clr-accent-red)">Platform</font></p>
+		<h2 class="fs-secondary-heading fw-bold">Feature Rich<br><span style="color: #b81414;">Platform</span></h2>
 			&nbsp;
 			<div class="accordion-grid">
 				<div>
@@ -272,60 +268,62 @@ keywords: "microservices, event based development, ipaas"
 </section>
 
 <!-- Horizontal Line  -->
-<hr class="hr-text-black" data-content="RICH" style="margin-block: 3rem" />
+<hr class="hr-text-black" data-content="LIMITLESS FUNCTIONALITY" style="margin-block: 3rem" />
 
 <!-- Feature Block - 12 Boxes -->
 <section class="padding-block-900">
-		<p class="fs-secondary-heading fw-bold" style="text-align: left;">Open, Reusable<br><font color="var(--clr-accent-red)">Functions</font></p>
-			&nbsp;
-	<div class="grid-12-boxes">
-		<div class="grid-12-item">
-		    <div class="header">Services &<br>Integrations</div>
-            <div class="detail-text">Pre-built Edge Adaptors simplify integrating and developing any automated process flow. Orchestrating reusable services on a simple interface.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">No-Code<br>DevOps</div>
-        	<div class="detail-text">The real-time integration of Ferris with Git (Github, Gitlabs, Bitbucket) streamlines direct deployment of code and services, by branch.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Jobs<br>On-Demand</div>
-        	<div class="detail-text">Ferris jobs run on demand, by trigger event, or CRON schedule. Manage all from one central location.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Real-Time<br>Monitoring</div>
-        	<div class="detail-text">Built-in logging and monitoring with real-time insight into development, testing, and operations. Control jobs  from the command center.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Event<br>Sources</div>
-        	<div class="detail-text">Event sources double as data sources and triggers, including streams like Kafka, AWS, SQS, Azure, Google, Minio, or Debezium, as well as incoming Web Hooks.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Edge<br>Adaptors</div>
-        	<div class="detail-text">The expanding Ferris Edge Adaptors streamline delivery time by handling complex tasks like data integrations, protocol conversions, and real-time processing.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Streaming<br>Hub</div>
-        	<div class="detail-text">The Streaming Hub simplifies source data integration, topic and consumer management, with built-in cluster scaling for resource optimization.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Any<br>Consumer</div>
-        	<div class="detail-text">Ferris supports consumers in any language, being language agnostic. Python users benefit from straightforward yet potent abstractions.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Polyglot<br>Environments</div>
-        	<div class="detail-text">Ferris prioritizes interoperability, granting freedom to choose any language for seamless integration across technologies.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Easy<br>Configuration</div>
-        	<div class="detail-text">Enabling Ferris K8X is fully configuration driven, requiring only a small number of templated configuration files.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Spanning<br>Containers</div>
-        	<div class="detail-text">Enabling Ferris K8X is fully configuration driven, requiring only a small number of templated configuration files.</div>
-		</div>
-		<div class="grid-12-item">
-			<div class="header">Cost<br>Efficient</div>
-        	<div class="detail-text">Optimize your Kubernetes clusters for efficient resource utilization. Maintain default state at minimal levels, avoiding constant 100% utilization.</div>
+	<div class="container">
+		<h2 class="fs-secondary-heading fw-bold">Open, Reusable<br><span style="color: #b81414;">Functions</span></h2>
+				&nbsp;
+		<div class="grid-12-boxes">
+			<div class="grid-12-item">
+				<div class="header">Services &<br>Integrations</div>
+				<div class="detail-text">Pre-built Edge Adaptors simplify integrating and developing any automated process flow. Orchestrating reusable services on a simple interface.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">No-Code<br>DevOps</div>
+				<div class="detail-text">The real-time integration of Ferris with Git (Github, Gitlabs, Bitbucket) streamlines direct deployment of code and services, by branch.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Jobs<br>On-Demand</div>
+				<div class="detail-text">Ferris jobs run on demand, by trigger event, or CRON schedule. Manage all from one central location.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Real-Time<br>Monitoring</div>
+				<div class="detail-text">Built-in logging and monitoring with real-time insight into development, testing, and operations. Control jobs  from the command center.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Event<br>Sources</div>
+				<div class="detail-text">Event sources double as data sources and triggers, including streams like Kafka, AWS, SQS, Azure, Google, Minio, or Debezium, as well as incoming Web Hooks.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Edge<br>Adaptors</div>
+				<div class="detail-text">The expanding Ferris Edge Adaptors streamline delivery time by handling complex tasks like data integrations, protocol conversions, and real-time processing.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Streaming<br>Hub</div>
+				<div class="detail-text">The Streaming Hub simplifies source data integration, topic and consumer management, with built-in cluster scaling for resource optimization.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Any<br>Consumer</div>
+				<div class="detail-text">Ferris supports consumers in any language, being language agnostic. Python users benefit from straightforward yet potent abstractions.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Polyglot<br>Environments</div>
+				<div class="detail-text">Ferris prioritizes interoperability, granting freedom to choose any language for seamless integration across technologies.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Easy<br>Configuration</div>
+				<div class="detail-text">Enabling Ferris K8X is fully configuration driven, requiring only a small number of templated configuration files.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Spanning<br>Containers</div>
+				<div class="detail-text">Enabling Ferris K8X is fully configuration driven, requiring only a small number of templated configuration files.</div>
+			</div>
+			<div class="grid-12-item">
+				<div class="header">Cost<br>Efficient</div>
+				<div class="detail-text">Optimize your Kubernetes clusters for efficient resource utilization. Maintain default state at minimal levels, avoiding constant 100% utilization.</div>
+			</div>
 		</div>
 	</div>
 </section>

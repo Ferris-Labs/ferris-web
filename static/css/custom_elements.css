@@ -102,7 +102,7 @@
   text-decoration: none;
   border: 2;
   border-radius: 100vmax;
-  box-shadow: 1px 1px var(--clr-neutral-gray);
+  /* box-shadow: 1px 1px var(--clr-neutral-gray); */
   padding: 1.25em 2.5em;
   font-weight: var(--fw-regular);
   font-size: var(--fs-button);
@@ -313,7 +313,7 @@ footer .grid-container li a:hover {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
   line-height: 1;
-  font-size: var(--fs-600);
+  font-size: var(--fs-650);
 }
 
 .numbered-items__body {
@@ -343,6 +343,11 @@ footer .grid-container li a:hover {
   border-radius: 100vw;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
+}
+
+.numbered-items[data-type="red"] div::before {
+  background-color: var(--clr-accent-red);
+  color: var(--clr-primary-white);
 }
 
 @media (max-width: 30em) {
@@ -575,8 +580,8 @@ footer .grid-container li a:hover {
   line-height: 1.2;
 }
 
-.fs-third-heading {
-  font-size: var(--fs-third-heading);
+.fs-sub-heading {
+  font-size: var(--fs-sub-heading);
   line-height: 1.1;
   color: var(--clr-accent-red);
 }
@@ -788,13 +793,14 @@ footer .grid-container li a:hover {
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   padding: 10px;
 }
 
 .column {
   box-sizing: border-box;
-  padding: 10px;
+  padding-block: 10px;
+  padding-inline: 0px 100px;
 }
 
 .column img {
@@ -804,25 +810,22 @@ footer .grid-container li a:hover {
   margin: 0 auto;
 }
 
-.column p {
-  font-size: var(--fs-600);
-  line-height: 1.6;
-  color: var(--clr-primary-black);
-  opacity: 0.9;
-}
-
 /* THREE COLUMN Section */
 .three-columns {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 35px;
-  padding: 0px 20px 10px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  /* padding: 0px 20px 10px 20px; */
   justify-content: center;
+  /* flex-direction: column; */
 }
 
-.column-border,
-.column-noborder {
+.column-border {
   text-align: center;
+}
+
+.column-noborder {
+  text-align: left;
 }
 
 .column-border,
@@ -837,10 +840,6 @@ footer .grid-container li a:hover {
   box-shadow: 1px 1px var(--clr-neutral-gray);
   padding: 30px;
 }
-
-/* .column-noborder {
-  padding: 20px;
-} */
 
 .column-border h3,
 .column-border img,
@@ -865,10 +864,8 @@ footer .grid-container li a:hover {
 }
 
 @media (max-width: 50em) {
-  /* Adjust the layout for small screens */
   .three-columns {
     grid-template-columns: 1fr;
-    /* Vertical stacking on small screens */
   }
 }
 
@@ -886,7 +883,7 @@ footer .grid-container li a:hover {
   left: 0;
   width: 100%;
   height: 50%;
-  border-bottom: 15px solid rgba(81, 80, 80, 0.2);
+  border-bottom: 5px solid rgba(81, 80, 80, 0.2);
   /* Adjust the RGB values and alpha (0.5 for 50% transparency) */
   box-sizing: border-box;
   display: flex;
@@ -900,16 +897,16 @@ footer .grid-container li a:hover {
   padding: 0 5rem 0 8rem;
 }
 
-/*
-  .quote::before {
-    content: '\201C';
-    color: var(--clr-neutral-darkgray);
-    position: absolute;
-    
-    left: 25rem;
-    font-size: 20em;
-    opacity: 0.5;
-  }*/
+/* Quote to appear at the top left of the container */
+.quote::before {
+  content: "\201C";
+  color: var(--clr-neutral-white);
+  position: absolute;
+  left: 15rem;
+  top: -1; /* Add this line */
+  font-size: 20em;
+  opacity: 0.7;
+}
 
 /* SLIDING LOGOS BANNER */
 @keyframes slide {
@@ -954,7 +951,7 @@ footer .grid-container li a:hover {
 }
 
 .tab.tablink {
-  background-color: #ccc;
+  background-color: var(--clr-neutral-darkgray);
   border: none;
   border-radius: 10px 10px 0px 0px;
   outline: none;
@@ -972,8 +969,8 @@ footer .grid-container li a:hover {
 }
 
 .tab.tablink.active-tab {
-  background-color: #b81414;
-  color: white;
+  background-color: var(--clr-accent-red);
+  color: var(--clr-primary-white);
 }
 
 .tab-content-container {
@@ -1010,13 +1007,14 @@ footer .grid-container li a:hover {
 
 .tabcontent a:hover,
 .tabcontent a:focus {
-  color: var(--clr-neutral-gray);
+  color: var(--clr-neutral-lightgraygray);
   text-decoration: underline;
 }
 
 /* SUB-PAGE HEADERS */
 .sub-header {
-  background-color: #b81414;
+  background-color: var(--clr-primary-black);
+  padding-top: 3rem;
 }
 
 .sub-header body {
@@ -1038,7 +1036,7 @@ footer .grid-container li a:hover {
   line-height: 1.1;
   color: var(--clr-neutral-lightgray);
   text-align: center;
-  padding-block: 0pt 25pt;
+  padding: 5pt 50pt 40pt 50pt;
 }
 
 /* Grid Styles */
@@ -1118,13 +1116,13 @@ footer .grid-container li a:hover {
 
 /* Tabbed Views */
 .tab-container {
-  color: #b81414;
+  color: var(--clr-accent-red);
   display: flex;
   width: 100%;
 }
 
 .tab.tablink {
-  background-color: #ccc;
+  background-color: var(--clr-neutral-white);
   border: none;
   border-radius: 10px 10px 0px 0px;
   outline: none;
@@ -1138,18 +1136,18 @@ footer .grid-container li a:hover {
 }
 
 .tab.tablink:hover {
-  background-color: #ddd;
+  background-color: var(--clr-neutral-white);
 }
 
 .tab.tablink.active-tab {
-  background-color: #b81414;
+  background-color: var(--clr-accent-red);
   color: white;
 }
 
 .tab-content-container {
   width: 100%;
   /* Full width of the container */
-  border: 1px solid #ccc;
+  border: 1px solid var(--clr-neutral-white);
 }
 
 .tabcontent {
@@ -1187,7 +1185,9 @@ footer .grid-container li a:hover {
 }
 
 .grid-12-item:hover .header {
-  display: none; /* Hide header text */
+  display: block; /* Hide header text */
+  color: var(--clr-primary-white);
+  padding-bottom: 10px;
 }
 
 .grid-12-item .detail-text {
