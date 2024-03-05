@@ -1168,14 +1168,15 @@ footer .grid-container li a:hover {
   color: var(--clr-primary-black);
   padding: 20px;
   text-align: center;
-  transition: transform 0.3s ease; /* Changed transition property */
+  transition: transform 0.9s ease; /* Adjusted transition for scaling effect */
   overflow: hidden; /* Hide overflow content */
 }
 
 .grid-12-item:hover {
-  transform: scale(1); /* Expand the box on hover */
+  transform: scale(1.1); /* Expand the box on hover */
   background-color: var(--clr-primary-black);
   color: var(--clr-neutral-white);
+  border-radius: 5px;
 }
 
 .grid-12-item .header {
@@ -1197,4 +1198,34 @@ footer .grid-container li a:hover {
 
 .grid-12-item:hover .detail-text {
   display: block; /* Display the detail text on hover */
+}
+
+
+/* CSS classes for anchor element */
+#td-block-{{ .Ordinal }} {
+  /* Your styles here */
+}
+
+/* CSS classes for section element */
+.row {
+  /* Your styles here */
+}
+
+.td-box {
+  /* Your styles here */
+}
+
+/* CSS classes for container element */
+.container {
+  /* Your styles here */
+}
+
+/* CSS classes for text element */
+.h4 {
+  /* Your styles here */
+}
+
+/* CSS classes for span element */
+.mb-0 {
+  /* Your styles here */
 }
