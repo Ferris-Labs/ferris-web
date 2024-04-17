@@ -306,7 +306,7 @@ keywords: "microservices, event based development, paas"
 			</div>
 			<div class="grid-12-item">
 				<div class="header">Any<br>Consumer</div>
-				<div class="detail-text">Ferris supports consumers in any language, being language agnostic. Python users benefit from straightforward yet potent abstractions.</div>
+				<div class="detail-text">Ferris is language agnostic, supporting consumers written in any programing language. Python users benefit from straightforward yet potent abstractions.</div>
 			</div>
 			<div class="grid-12-item">
 				<div class="header">Polyglot<br>Environments</div>

@@ -16,8 +16,14 @@
         <h2>Business Solutions</h2>
         <ul>
           <li><a href="/solutions#solutions-business">Business Focus</a></li>
-          <li><a href="#">IT Strategy</a></li>
-          <li><a href="#">Use Cases</a></li>
+          <li><a href="/solutions#solutions-it">IT Strategy</a></li>
+          <li>
+            <a
+              href="https://docs.ferrislabs.net/docs/solutions/"
+              target="_blank"
+              >Use Cases</a
+            >
+          </li>
           <li><a href="#">Industries</a></li>
         </ul>
       </div>
@@ -35,13 +41,27 @@
       <div class="sec resources">
         <h2>Resources</h2>
         <ul>
-          <li><a href="#">Getting Started</a></li>
           <li>
-            <a href="https://m.ferrislabs.net/fl-sandbox-lp">Ferris Sandbox</a>
+            <a href="https://m.ferrislabs.net/fl-quickstarter" target="_blank"
+              >Getting Started</a
+            >
+          </li>
+          <li>
+            <a href="https://m.ferrislabs.net/fl-sandbox-lp" target="_blank"
+              >Ferris Sandbox</a
+            >
           </li>
           <li><a href="/demo">Request Demo</a></li>
-          <li><a href="#">Documentation</a></li>
-          <li><a href="#">Videos</a></li>
+          <li>
+            <a href="https://docs.ferrislabs.net/docs/" target="_blank"
+              >Documentation</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@ferrislabs" target="_blank"
+              >Videos</a
+            >
+          </li>
           <li><a href="#">Support</a></li>
         </ul>
       </div>
@@ -51,8 +71,9 @@
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Newsletter</a></li>
+          <li><a href="#" >Jobs</a></li>
+          <li><a href="#" id="loadScriptLink">Load Script</a>
+            >Newsletter</a></li>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Pricing</a></li>
         </ul>
@@ -122,3 +143,23 @@
     </p>
   </div>
 </footer>
+
+<!-- Newsletter Script -->
+<script type="text/javascript">
+  function verifyCallback_07564f7b3578404ef2fcb7f4596508a5(response) {
+    let elem = document.getElementById(
+      "mauticform_input_flnewsletterform_recaptcha",
+    );
+    if (elem) {
+      elem.value = response;
+    }
+  }
+  function onLoad07564f7b3578404ef2fcb7f4596508a5() {
+    grecaptcha
+      .execute("6LfbRfsiAAAAAHS_hDnq73lyJkifCAAUHg4sS54z", { action: "form" })
+      .then(function (token) {
+        verifyCallback_07564f7b3578404ef2fcb7f4596508a5(token);
+      });
+  }
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onLoad07564f7b3578404ef2fcb7f4596508a5&render=6LfbRfsiAAAAAHS_hDnq73lyJkifCAAUHg4sS54z"></script>

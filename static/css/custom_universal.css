@@ -2,7 +2,8 @@
   background-color: var(--clr-primary-white);
 
   /* Ferris Primary Colors*/
-  --clr-primary-black: hsl(37, 100%, 6%);
+  /* --clr-primary-black: hsl(37, 100%, 6%); */
+  --clr-primary-black: hsl(0, 0%, 0%);
   --clr-primary-white: hsl(0, 0%, 96%);
   --clr-neutral-white: hsl(0, 0%, 100%);
   --clr-neutral-lightgray: hsl(30, 5%, 92%);
