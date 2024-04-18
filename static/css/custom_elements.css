@@ -926,6 +926,13 @@ footer .grid-container li a:hover {
   opacity: 0.7;
 }
 
+.quote-none {
+  box-sizing: border-box;
+  font-size: var(--fs-650);
+  font-weight: var(--fw-regular);
+  padding: 0 5rem 0 8rem;
+}
+
 /* SLIDING LOGOS BANNER */
 @keyframes slide {
   from {
@@ -1186,8 +1193,8 @@ footer .grid-container li a:hover {
   color: var(--clr-primary-black);
   padding: 20px;
   text-align: center;
-  transition: transform 1.0s ease; /* Adjusted transition for scaling effect */
   overflow: hidden; /* Hide overflow content */
+  transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease; /* Smooth transitions */
 }
 
 .grid-12-item:hover {
@@ -1198,15 +1205,14 @@ footer .grid-container li a:hover {
 }
 
 .grid-12-item .header {
-  font-size: var(--fs-600);
+  font-size: var(--fs-650);
   font-weight: bolder;
   color: var(--clr-neutral-darkgray);
+  transition: color 0.5s ease; /* Smooth transition for color change */
 }
 
 .grid-12-item:hover .header {
-  display: block; /* Hide header text */
   color: var(--clr-primary-white);
-  padding-bottom: 10px;
 }
 
 .grid-12-item .detail-text {
@@ -1218,6 +1224,53 @@ footer .grid-container li a:hover {
   display: block; /* Display the detail text on hover */
 }
 
+.grid-12-boxes .profile-img img {
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 5px #ccc;
+  -moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  -khtml-box-shadow: 5px 5px 5px #ccc;
+  margin-bottom: 0pt;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+.grid-12-item:hover .profile-img img {
+  opacity: 0.5;
+}
+
+.grid-12-item:hover .social-img img {
+  opacity: 0.5; /* Hide the image upon hovering */
+}
+
+/* Grid 20 Boxes - no effect */
+.grid-20-boxes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  align-items: center; /* Vertically align all grid items */
+}
+
+.grid-20-item {
+  color: var(--clr-primary-black);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.grid-20-item .header {
+  color: var(--clr-primary-black);
+  font-size: var(--fs-650);
+  font-weight: bolder;
+  text-align: left;
+  padding: 20px;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.grid-20-item img {
+  max-height: 50px;
+  display: inline-block;
+  margin: 0 auto;
+}
 
 /* CSS classes for anchor element */
 #td-block-{{ .Ordinal }} {

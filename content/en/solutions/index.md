@@ -152,7 +152,7 @@ keywords: "use cases, refactor, legacy, modernize"
 	</div>
 	<div>
 	</div>
-		<div style="text-align: center;">
+	<div style="text-align: center;">
     	<button class="button" style="margin: 2rem auto; display: block;">
 		<a href="https://docs.ferrislabs.net/docs/solutions/" target="_blank">Business Use Cases</a></button>
 	</div>
