@@ -46,7 +46,7 @@ keywords: "about us, ferrislabs, company"
     			</div>
     				<br>
 				<div class="font-weight social-img" style="text-align: center; color: gray; display: flex; justify-content: center;">
-					<a href="https://www.linkedin.com/in/tomdebus" target="_blank" class="linkedin-link">
+					<a href="https://www.linkedin.com/in/maselva" target="_blank" class="linkedin-link">
 						<img src="/img/brand_images/linkedin-icon.png" alt="LinkedIn Logo" style="max-height: 20pt; margin-right: 20pt;">
 					</a>
 					<a href="https://twitter.com/ferrislabs" target="_blank">
@@ -96,7 +96,7 @@ keywords: "about us, ferrislabs, company"
     			</div>
     				<br>
 				<div class="font-weight social-img" style="text-align: center; color: gray; display: flex; justify-content: center;">
-					<a href="https://www.linkedin.com/in/tomdebus" target="_blank" class="linkedin-link">
+					<a href="https://www.linkedin.com/in/frank-kamisky-4bb135124/" target="_blank" class="linkedin-link">
 						<img src="/img/brand_images/linkedin-icon.png" alt="LinkedIn Logo" style="max-height: 20pt; margin-right: 20pt;">
 					</a>
 					<a href="https://twitter.com/ferrislabs" target="_blank">

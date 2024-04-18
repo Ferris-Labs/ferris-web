@@ -24,17 +24,17 @@
               >Use Cases</a
             >
           </li>
-          <li><a href="#">Industries</a></li>
+          <!-- <li><a href="#">Industries</a></li> -->
         </ul>
       </div>
 
       <div class="sec solutions">
         <h2>Tech Solutions</h2>
         <ul>
-          <li><a href="#">Application Refactoring</a></li>
-          <li><a href="#">Data & Service Mesh</a></li>
-          <li><a href="#">Large Language Models</a></li>
-          <li><a href="#">AI, ML</a></li>
+          <li><a href="/solutions">Application Refactoring</a></li>
+          <li><a href="/solutions">Data & Service Mesh</a></li>
+          <li><a href="/solutions">Large Language Models</a></li>
+          <li><a href="/solutions">AI, ML</a></li>
         </ul>
       </div>
 
@@ -62,7 +62,7 @@
               >Videos</a
             >
           </li>
-          <li><a href="#">Support</a></li>
+          <li><a href="/contact">Support</a></li>
         </ul>
       </div>
 
@@ -70,12 +70,16 @@
         <h2>Company</h2>
         <ul>
           <li><a href="/about">About Us</a></li>
-          <li><a href="#">Blog</a></li>
+          <!-- <li><a href="#">Blog</a></li> -->
           <li><a href="/jobs">Jobs</a></li>
           <li><a href="/partner">Partners</a></li>
-          <li><a href="#">Newsletter</a></li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#subscribeModal"
+              >Newsletter</a
+            >
+          </li>
           <li><a href="/contact">Contact Us</a></li>
-          <li><a href="#">Pricing</a></li>
+          <!-- <li><a href="#">Pricing</a></li> -->
         </ul>
       </div>
     </div>
@@ -125,10 +129,7 @@
         /></a>
       </li>
       <li>
-        <a
-          class="footer-icon"
-          href="mailto:your.email@example.com"
-          target="_blank"
+        <a class="footer-icon" href="/contact" target="_blank"
           ><img src="/img/brand_images/mail-icon.png" alt="E-Mail us"
         /></a>
       </li>
@@ -138,8 +139,20 @@
   <!-- Company Disclaimer and Policies -->
   <div>
     <p class="footer-text">
-      2024 © FERRIS LABS AG | Privacy Policy | Data Protection Policy | Legal
-      Terms and Conditions
+      2024 © FERRIS LABS AG |
+      <a href="https://docs.ferrislabs.net/docs/privacy_policy/" target="_blank"
+        >Privacy Policy</a
+      >
+      |
+      <a href="https://docs.ferrislabs.net/docs" target="_blank"
+        >Data Protection Policy</a
+      >
+      |
+      <a
+        href="https://docs.ferrislabs.net/docs/terms_conditions/"
+        target="_blank"
+        >Legal Terms and Conditions</a
+      >
     </p>
   </div>
 </footer>

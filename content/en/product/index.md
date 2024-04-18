@@ -5,8 +5,8 @@ keywords: "microservices, event based development, paas"
 ---
 
 <!-- FERRIS PLATFORM -->
-<section class="sub-header">
-		<h1 id="ferris-platform">The Event Based <br> Engineering Platform</h1>
+<section class="sub-header" id="ferris-platform">
+		<h1>The Event Based <br> Engineering Platform</h1>
 </section>
 
 <!-- PAGE INTRO -->
@@ -116,8 +116,8 @@ keywords: "microservices, event based development, paas"
 </section>
 
 <!-- FERRIS PLATFORM -->
-<section class="sub-header">
-		<h1 id="ferris-technology">Ferris Open Technology</h1>
+<section class="sub-header" id="ferris-technology">
+		<h1>Ferris Open Technology</h1>
 		<p>Connect, integrate and operate anywhere. Speed, efficiency and resource friendly - you did not think possible!</p>
 
 </section

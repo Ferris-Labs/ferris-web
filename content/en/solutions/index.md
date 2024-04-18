@@ -5,8 +5,8 @@ keywords: "use cases, refactor, legacy, modernize"
 ---
 
 <!-- SOLUTIONS HEADER -->
-<section class="sub-header">
-		<h1 id="solutions-top">Solutions for today's demands <br>and tomorrow's goals</h1>
+<section class="sub-header" id="solutions-top">
+		<h1>Solutions for today's demands <br>and tomorrow's goals</h1>
 		<p></p>
 </section>
 
@@ -83,8 +83,8 @@ keywords: "use cases, refactor, legacy, modernize"
 </section>
 
 <!-- SOLUTIONS HEADER -->
-<section class="sub-header">
-		<h1 id="solutions-business">Business Leaders<br><span style="font-weight: lighter; font-style: italic">Focus on the NOW:</h1>
+<section class="sub-header" id="solutions-business">
+		<h1>Business Leaders<br><span style="font-weight: lighter; font-style: italic">Focus on the NOW:</h1>
 		<p></p>
 </section>
 
@@ -159,8 +159,8 @@ keywords: "use cases, refactor, legacy, modernize"
 </section>
 
 <!-- FERRIS PLATFORM -->
-<section class="sub-header">
-		<h1 id="it-strategy">IT Execs<br><span style="font-weight: lighter; font-style: italic">Your Tech Strategy starts NOW:</h1>
+<section class="sub-header" id="it-strategy">
+		<h1>IT Execs<br><span style="font-weight: lighter; font-style: italic">Your Tech Strategy starts NOW:</h1>
 		<p></p>
 </section>
 

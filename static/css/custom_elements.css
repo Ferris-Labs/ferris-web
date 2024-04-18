@@ -8,6 +8,11 @@
   z-index: 10;
 }
 
+/* Reset sticky behavior for subsequent sections */
+section:not(:first-child) .primary-header {
+  position: static;
+}
+
 .nav-wrapper {
   display: grid;
   grid-template-columns: 1fr auto auto;
