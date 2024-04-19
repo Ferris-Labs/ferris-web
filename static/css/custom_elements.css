@@ -729,6 +729,7 @@ footer .grid-container li a:hover {
   text-align: center;
   height: 1.5em;
   opacity: 0.5;
+  font-weight: bolder;
 
   &:before {
     content: "";
@@ -766,6 +767,7 @@ footer .grid-container li a:hover {
   text-align: center;
   height: 1.5em;
   opacity: 0.5;
+  font-weight: bolder;
 
   &:before {
     content: "";

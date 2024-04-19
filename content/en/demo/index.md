@@ -10,11 +10,9 @@ keywords: "demo"
                 Book an online demo at your convenience with one of our solution experts.</p>
 
   <!-- Calendly Inline Widget -->
-  <div class="calendly-inline-widget" data-url="https://calendly.com/ferris-intro/30min?primary_color=b81414" style="min-width:320px;height:630px;"></div>
+  <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/ferris-intro/30min?primary_color=b81414" style="min-width:320px;height:630px;"></div> -->
+
+  <div class="calendly-inline-widget" data-url="https://calendly.com/ferris-team/ferris-intro?primary_color=b81414" style="min-width:320px;height:630px;"></div>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
 </section>
-
-
-
-
