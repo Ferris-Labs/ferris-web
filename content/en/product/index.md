@@ -22,7 +22,7 @@ keywords: "microservices, event based development, paas"
 					cloud or inhouse systems it is deployed in no time.</p><br>
 			</div>
 			<div class="column">
-				<img src="/img/header-image-1.png" alt="graph icon" style="max-height: 400px;">
+				<img src="/img/fx_urp_schema2.png" alt="Ferris URP Diagram">
 			</div>
 		</div>
 	</div>
@@ -50,7 +50,7 @@ keywords: "microservices, event based development, paas"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/fx_dashboard_2.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_nav_legend2.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
