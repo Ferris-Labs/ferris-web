@@ -58,9 +58,9 @@ keywords: "about us, ferrislabs, company"
 				</div>
 					<br>
 				<div class="detail-text">
-					<p>...</p>
+					<p>Mr. Data, as Marco was called in his previous life as the Head of Data Warehousing and MIS systems, at some of the largest global banks.</p>
 					<br>
-					<p>...</p>
+					<p>Today, Marco leads the Banking and Regulatory Services arm at Ferris.</p>
 				</div>
 			</div>
 			<!-- Tom Debus -->
@@ -108,9 +108,9 @@ keywords: "about us, ferrislabs, company"
 				</div>
 					<br>
 				<div class="detail-text">
-					<p>...</p>
+					<p>Frank is our Engineer by trade and by heart. He forges new paths, testing our technologies in previously uncharted industries and territories.</p>
 					<br>
-					<p>...</p>
+					<p>Frank is our Head of Finance, thus keeping us all honest.</p>
 				</div>
 			</div>
     	</div>

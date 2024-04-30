@@ -50,7 +50,7 @@ keywords: "microservices, event based development, paas"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_dashboard_2.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
@@ -79,7 +79,7 @@ keywords: "microservices, event based development, paas"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_projects_1.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
@@ -106,7 +106,7 @@ keywords: "microservices, event based development, paas"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_services_2.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;

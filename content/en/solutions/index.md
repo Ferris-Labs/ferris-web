@@ -73,7 +73,7 @@ keywords: "use cases, refactor, legacy, modernize"
 			        </a> -->
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_dashboard_3.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
@@ -100,7 +100,7 @@ keywords: "use cases, refactor, legacy, modernize"
                     <br>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_projects_2.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
@@ -181,7 +181,7 @@ keywords: "use cases, refactor, legacy, modernize"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_projects_3.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;

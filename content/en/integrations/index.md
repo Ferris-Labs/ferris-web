@@ -27,7 +27,7 @@ keywords: "integrations"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_integrations_1.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
@@ -138,7 +138,7 @@ keywords: "integrations"
 			        </a>
                 </div>
             <div>
-				<img src="/img/screenshots/sample_screen.png" class="img-fluid" style="border:2px solid #fff;
+				<img src="/img/screenshots/fx_integrations_2.png" class="img-fluid" style="border:2px solid #fff;
 					box-shadow: 10px 10px 5px #ccc;
 					-moz-box-shadow: 10px 10px 5px #ccc;
 					-webkit-box-shadow: 10px 10px 5px #ccc;
