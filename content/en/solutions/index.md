@@ -235,7 +235,7 @@ keywords: "use cases, refactor, legacy, modernize"
 	</div>
 		<div style="text-align: center;">
     	<button class="button" style="margin: 2rem auto; display: block;">
-		<a href="https://m.ferrislabs.net/fl-quickstarter" target="_blank">Free Architecture Workshop</a></button>
+		<a href="/demo" target="_blank">Free Architecture Workshop</a></button>
 	</div>
 </section>
 

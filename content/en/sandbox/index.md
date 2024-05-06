@@ -11,7 +11,7 @@ keywords: "quickstarter, ferrislabs, getting started"
 </section>
 
 <!-- The Login & Registration Intro -->
-<section class="padding-block-700" style="background-color: var(--clr-primary-white);">
+<section class="padding-block-700" style="background-color: var(--clr-neutral-lightgray);">
     <div class="container">
         <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem">
             <h2 class="fs-secondary-heading fw-bold">

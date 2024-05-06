@@ -39,7 +39,7 @@ keywords: "partner"
   </div>
   <div style="text-align: center;">
     <button class="button" style="margin: 2rem auto; display: block;">
-	<a href="https://docs.ferrislabs.net/docs/solutions/" target="_blank">Get in Touch!</a></button>
+	<a href="/contact">Get in Touch!</a></button>
 </div>
 </section>
 
