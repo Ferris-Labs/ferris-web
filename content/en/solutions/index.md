@@ -248,3 +248,21 @@ async="async"></script>
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 <script type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/ferris-intro/30min?hide_event_type_details=1&primary_color=b81414', text: 'Book a Ferris Demo', color: '#b81414', textColor: '#ffffff', branding: false }); }</script>
 <!-- Calendly badge widget end -->
+
+<!-- Aivie Web Tracker -->
+<script>
+	(function (w, d, t, u, n, a, m) {
+    w["MauticTrackingObject"] = n;
+    (w[n] =
+    w[n] ||
+    function () {
+    (w[n].q = w[n].q || []).push(arguments);
+    }),
+        (a = d.createElement(t)),
+        (m = d.getElementsByTagName(t)[0]);
+        a.async = 1;
+        a.src = u;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://m.ferrislabs.net/mtc.js", "mt");
+      mt("send", "pageview");
+</script>

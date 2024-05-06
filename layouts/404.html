@@ -1,25 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+  </head>
 
-<head>
-  {{ partial "headers.html" . }}
-</head>
+  <body>
+    {{ partial "nav.html" . }}
 
-<body>
+    <section class="padding-block-700" style="text-align: center">
+      <h2
+        class="fs-secondary-heading fw-bold"
+        style="text-align: center; padding-block: 0.5em"
+      >
+        404 - Page Not Found
+      </h2>
+      <p
+        style="
+          font-size: var(--fs-700);
+          color: var(--color-primary-black);
+          text-align: center;
+        "
+      >
+        We're sorry - something went wrong!
+      </p>
+      <p class="button" data-type="inverted" style="margin-block: 20pt">
+        <a href="/" style="color: var(--color-primary-white)">Home</a>
+      </p>
+    </section>
 
-  {{ partial "nav.html" . }}
+    {{ partial "footer.html" . }}
 
-  <section class="padding-block-700" style="text-align: center;">
-    <h2 class="fs-secondary-heading fw-bold" style="text-align: center; padding-block: 0.5em;">404 - Page Not
-      Found</h2>
-    <p style="font-size: var(--fs-700); color:var(--color-primary-black); text-align: center;">We're
-      sorry - something went wrong!</p>
-    <p class="button" data-type="inverted" style="margin-block: 20pt;"><a href="/"
-        style="color: var(--color-primary-white);">Home</a></p>
-  </section>
+    <!-- Aivie Web Tracker -->
+    <script>
+      (function (w, d, t, u, n, a, m) {
+        w["MauticTrackingObject"] = n;
+        (w[n] =
+          w[n] ||
+          function () {
+            (w[n].q = w[n].q || []).push(arguments);
+          }),
+          (a = d.createElement(t)),
+          (m = d.getElementsByTagName(t)[0]);
+        a.async = 1;
+        a.src = u;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, "script", "https://m.ferrislabs.net/mtc.js", "mt");
 
-  {{ partial "footer.html" . }}
-
-</body>
-
+      mt("send", "pageview");
+    </script>
+  </body>
 </html>

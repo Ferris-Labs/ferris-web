@@ -223,3 +223,21 @@ keywords: "integrations"
     <button class="button" data-type="inverted" style="margin: 2rem auto; display: block;">
 	<a href="https://docs.ferrislabs.net/docs/integrations/notifications_and_messaging/" target="_blank">All Integrations</a></button>
 </div>
+
+<!-- Aivie Web Tracker -->
+<script>
+	(function (w, d, t, u, n, a, m) {
+    w["MauticTrackingObject"] = n;
+    (w[n] =
+    w[n] ||
+    function () {
+    (w[n].q = w[n].q || []).push(arguments);
+    }),
+        (a = d.createElement(t)),
+        (m = d.getElementsByTagName(t)[0]);
+        a.async = 1;
+        a.src = u;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://m.ferrislabs.net/mtc.js", "mt");
+      mt("send", "pageview");
+</script>

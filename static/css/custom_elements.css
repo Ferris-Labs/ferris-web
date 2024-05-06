@@ -338,7 +338,7 @@ footer .grid-container li a:hover {
 }
 
 .numbered-items div::before {
-  content: "0" counter(count);
+  content: "" counter(count);
   display: flex;
   align-items: center;
   color: var(--clr-primary-white);
@@ -352,6 +352,11 @@ footer .grid-container li a:hover {
 
 .numbered-items[data-type="red"] div::before {
   background-color: var(--clr-accent-red);
+  color: var(--clr-primary-white);
+}
+
+.numbered-items[data-type="green"] div::before {
+  background-color: green;
   color: var(--clr-primary-white);
 }
 
@@ -1076,7 +1081,7 @@ footer .grid-container li a:hover {
 .grid-4-columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 50px;
 }
 
 .grid-item {
@@ -1084,6 +1089,25 @@ footer .grid-container li a:hover {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 1px 1px 4px var(--clr-neutral-gray);
+}
+
+.grid-buttons {
+  padding-left: 0 !important; /* Override the padding-left */
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Grid Styles */
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid-3-item {
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* Additional Styles */
