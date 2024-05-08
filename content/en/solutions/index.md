@@ -267,6 +267,12 @@ async="async"></script>
       mt("send", "pageview");
 </script>
 
+<!-- Cookie Banner -->
+<script
+  type="text/javascript"
+  src="https://app.termly.io/resource-blocker/d4500aa6-4155-4ee2-a3b5-7cbc8707d973?autoBlock=on"
+></script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ0TW8858J"></script>
 <script>
