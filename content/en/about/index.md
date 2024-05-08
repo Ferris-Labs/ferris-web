@@ -134,3 +134,13 @@ keywords: "about us, ferrislabs, company"
     })(window, document, "script", "https://m.ferrislabs.net/mtc.js", "mt");
       mt("send", "pageview");
 </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ0TW8858J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HJ0TW8858J');
+</script>
