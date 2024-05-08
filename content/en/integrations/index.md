@@ -249,5 +249,5 @@ keywords: "integrations"
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-HJ0TW8858J');
+  gtag('config', 'G-YVQRSTKQ4Z');
 </script>
