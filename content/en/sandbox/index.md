@@ -68,32 +68,32 @@ keywords: "quickstarter, ferrislabs, getting started"
 		<div class="grid-3-columns">
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/creating_and_configuring_your_first_fx_service/" target="_blank">Creating your first Ferris FX Services
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/creating_and_configuring_your_first_fx_service/" target="_blank">Creating your first Ferris FX Services
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/deploy_a_service/" target="_blank">Deploying Services
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/deploy_a_service/" target="_blank">Deploying Services
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/leveraging_event_manipulation/" target="_blank">Event Manipulation Strategies
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/leveraging_event_manipulation/" target="_blank">Event Manipulation Strategies
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/deploy_a_service/" target="_blank">Deploying Services
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/deploy_a_service/" target="_blank">Deploying Services
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/project_and_code_structure/" target="_blank">Project and Code Structure
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/project_and_code_structure/" target="_blank">Project and Code Structure
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/fx/developer_guide/form_generator/" target="_blank">Form Generator
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/form_generator/" target="_blank">Form Generator
 			    </a>
 			</div>
 		</div>
@@ -125,7 +125,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                     </p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">Developer Guide
+				    href="https://docs.ferris.ai/docs/fx/developer_guide/">Developer Guide
 			        </a>
                     <br>
             </div>
@@ -140,7 +140,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                     </p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">Integrations Guide
+				    href="https://docs.ferris.ai/docs/integrations/">Integrations Guide
 			        </a>
                     <br>
             </div>
@@ -155,7 +155,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                 </p>
                 <br>
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">User Guide
+				    href="https://docs.ferris.ai/docs/fx/user_guide/">User Guide
 			    </a>
                 <br>
             </div>
@@ -202,7 +202,7 @@ keywords: "quickstarter, ferrislabs, getting started"
         <div style="text-align: center;">
             <a class="read-more"
                 style="color: var(--clr-accent-red);"
-                href="https://docs.ferrislabs.net/docs/">More Use Cases</a>
+                href="https://docs.ferris.ai/docs/">More Use Cases</a>
         </div>
     </div>
 </section>

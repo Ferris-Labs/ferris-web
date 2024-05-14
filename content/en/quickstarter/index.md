@@ -84,32 +84,32 @@ keywords: "quickstarter, ferrislabs, getting started"
 		<div class="grid-3-columns">
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">Objective & Goals
+				    href="/quickstarter#objective">Objective & Goals
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">Our Comittment
+				    href="/quickstarter#comittment">Our Comittment
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">The Approach
+				    href="/quickstarter#approach">The Approach
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">What you get
+				    href="/quickstarter#whatyouget">What you get
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">What you will learn
+				    href="/quickstarter#whatyoulearn">What you will learn
 			    </a>
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferrislabs.net/docs/">Success
+				    href="/quickstarter#success">Success
 			    </a>
 			</div>
 		</div>
@@ -146,7 +146,7 @@ keywords: "quickstarter, ferrislabs, getting started"
         <h2 class="fs-secondary-heading fw-bold">What You get</h2>
         <br>
         <div class="three-columns">
-            <div class="column-noborder" style="padding-inline: 10px">
+            <div class="column-noborder" id="objective" style="padding-inline: 10px">
                 <img src="/img/diamond-1.svg"
                 alt="Diamond Icon"
                 style="padding-top: 1.2rem; max-height: 100px"/>
@@ -161,7 +161,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                         The goal is to make the many advantages of the Ferris Platform and Methodology transparent to you, while at the same time provide you with measurable business value.
                     </p>
             </div>
-            <div class="column-noborder" style="padding-inline: 10px">
+            <div class="column-noborder" id="comittment" style="padding-inline: 10px">
                 <img src="/img/diamond-2.svg"
                 alt="Diamond Icon"
                 style="padding-top: 1.2rem; max-height: 100px"/>
@@ -176,7 +176,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                         We comit to engage with your engineering staff to convey a thorough understand of the concept of an en events based services and integrations architecture.
                     </p>
             </div>
-            <div class="column-noborder" style="padding-inline: 10px">
+            <div class="column-noborder" id="whatyouget" style="padding-inline: 10px">
                 <img src="/img/diamond-3.svg"
                     alt="Diamond Icon"
                     style="padding-top: 1.2rem; max-height: 100px"/>
@@ -200,11 +200,11 @@ keywords: "quickstarter, ferrislabs, getting started"
     <br>
     <div class="container">
         <div class="three-columns">
-            <div class="column-noborder" style="padding-inline: 10px">
+            <div class="column-noborder" id="whatyoulearn" style="padding-inline: 10px">
                 <img src="/img/diamond-3.svg"
                     alt="Diamond Icon"
                     style="padding-top: 1.2rem; max-height: 100px"/>
-                    <h3 class="fs-sub-heading fw-bold">WHAT YOU WILL GELEARNT</h3>
+                    <h3 class="fs-sub-heading fw-bold">WHAT YOU WILL LEARN</h3>
                     <p class="fw-regular"
                         style="color: var(--clr-primary-black); text-align: justify; font-size: var(--fs-400); opacity: 0.7;">
                         You will gain a thorough understanding of:
@@ -219,7 +219,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                         <li>testing and operating applications within Ferris</li>
                     </ul>
             </div>
-          <div class="column-noborder" style="padding-inline: 10px">
+          <div class="column-noborder" id="approach" style="padding-inline: 10px">
                 <img src="/img/diamond-1.svg"
                     alt="Diamond Icon"
                     style="padding-top: 1.2rem; max-height: 100px"/>
@@ -242,11 +242,11 @@ keywords: "quickstarter, ferrislabs, getting started"
                         <li>provide q&a support sessions</li>
                     </ul>
             </div>
-            <div class="column-noborder" style="padding-inline: 10px">
+            <div class="column-noborder" id="success" style="padding-inline: 10px">
                 <img src="/img/diamond-2.svg"
                     alt="Diamond Icon"
                     style="padding-top: 1.2rem; max-height: 100px"/>
-                <h3 class="fs-sub-heading fw-bold">WHAT YOU WILL GET</h3>
+                <h3 class="fs-sub-heading fw-bold">SUCCESS</h3>
                 <p class="fw-regular"
                     style="color: var(--clr-primary-black); text-align: justify; font-size: var(--fs-400); opacity: 0.7;">
                     Your success is when you are satisfied with the received product, understand of the business value and have learned something.
