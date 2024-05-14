@@ -46,7 +46,7 @@ keywords: "microservices, event based development, paas"
 				        services on demand, scheduled or triggered upon one or more events.</p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/">Learn more in the Developer Guide
+				        href="https://docs.ferris.ai/docs/" target="_blank">Learn more in the Developer Guide
 			        </a>
                 </div>
             <div>
@@ -75,7 +75,7 @@ keywords: "microservices, event based development, paas"
                     <p class="lead-black-m">Monitoring streaming status and scaling clusters from within Ferris.</p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/">Learn more in the Developer Guide
+				        href="https://docs.ferris.ai/docs/" target="_blank">Learn more in the Developer Guide
 			        </a>
                 </div>
             <div>
@@ -102,7 +102,7 @@ keywords: "microservices, event based development, paas"
                     <p class="lead-black-m">Build service flows spanning multiple containers and languages, even across Kubernetes clusters, with ease. Workflow automation has never been this powerful - and resources effective!.</p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/">Learn more in the Developer Guide
+				        href="https://docs.ferris.ai/docs/" target="_blank">Learn more in the Developer Guide
 			        </a>
                 </div>
             <div>

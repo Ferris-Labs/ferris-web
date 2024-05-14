@@ -68,9 +68,6 @@ keywords: "use cases, refactor, legacy, modernize"
                     <p class="lead-black-m">Ferris organically builds fully functioning and automated solutions, on a large pool of data, service and integration assets, cross-cloud and enterprise ready.</p>
                     <p class="lead-black-m">Every single asset from data, to service to integration artefact is reusable, excellerating time-to-market of new solutions by a factor and reducing cost of operations.</p>
                     <br>
-                    <!-- <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/">Learn more in the Developer Guide
-			        </a> -->
                 </div>
             <div>
 				<img src="/img/screenshots/fx_dashboard_3.png" class="img-fluid" style="border:2px solid #fff;
@@ -154,7 +151,7 @@ keywords: "use cases, refactor, legacy, modernize"
 	</div>
 	<div style="text-align: center;">
     	<button class="button" style="margin: 2rem auto; display: block;">
-		<a href="https://docs.ferrislabs.net/docs/solutions/" target="_blank">Business Use Cases</a></button>
+		<a href="https://docs.ferris.ai/docs/solutions/" target="_blank">Business Use Cases</a></button>
 	</div>
 </section>
 
@@ -177,7 +174,7 @@ keywords: "use cases, refactor, legacy, modernize"
                     <p class="lead-black-m">Monitoring streaming status and scaling clusters from within Ferris.</p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/">Learn more in the Developer Guide
+				        href="https://docs.ferris.ai/docs/" target="_blank">Learn more in the Developer Guide
 			        </a>
                 </div>
             <div>

@@ -23,7 +23,7 @@ keywords: "integrations"
 </p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/integrations/" target="_blank" >Learn more in the Integrations Guide
+				        href="https://docs.ferris.ai/docs/integrations/" target="_blank" >Learn more in the Integrations Guide
 			        </a>
                 </div>
             <div>
@@ -50,25 +50,25 @@ keywords: "integrations"
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/redshift/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Apache Hive</h3>
-                <img src="/img/brand_images/apache_hive.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/apache_hive.svg" alt="Apache Hive"/>
                 <h3 class="fw-regular">
                     Apache Hive is a data warehouse software project built on top of Apache Hadoop for providing data query and analysis.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/hive/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Azure MS SQL</h3>
-                <img src="/img/brand_images/my_sql.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/my_sql.svg" alt="Microsoft MySQL"/>
                 <h3 class="fw-regular">
                     Microsoft SQL Server is a relational database management system developed by Microsoft.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/mysql/" target="_blank">more</a></p>
             </div>
         </div>
     </div>
@@ -79,30 +79,30 @@ keywords: "integrations"
         <div class="three-columns">
             <div class="column-databases">
                 <h3 class="fw-bold">PostgreSQL</h3>
-                <img src="/img/brand_images/postgresql.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/postgresql.svg" alt="Postgres"/>
                 <h3 class="fw-regular">
                     PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/postgres/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">SAP Hana</h3>
-                <img src="/img/brand_images/hana.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/hana.svg" alt="SAP Hana"/>
                 <h3 class="fw-regular">
                     SAP HANA in-memory database is for transactional and analytical workloads with any data type — on a single data copy.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/hana/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Snowflake</h3>
-                <img src="/img/brand_images/snowflake.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/snowflake.svg" alt="Snowflake"/>
                 <h3 class="fw-regular">
                     Snowflake is a data-warehousing platform. Snowflake provides an enterprise solution that makes the gathering, processing, using big data easy.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/database_guide/databases/snowflake/" target="_blank">more</a></p>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@ keywords: "integrations"
 
 <div style="text-align: center;">
     <button class="button" data-type="inverted" style="margin: 2rem auto; display: block;">
-	<a href="https://docs.ferrislabs.net/docs/integrations/database_guide/" target="_blank">All Databases</a></button>
+	<a href="https://docs.ferris.ai/docs/integrations/database_guide/" target="_blank">All Databases</a></button>
 </div>
 
 <!-- NOTIFICATIONS SECTION -->
@@ -128,13 +128,11 @@ keywords: "integrations"
             <div class="even-columns" style="padding-top: 2rem">
                 <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem; padding-right: 2rem">
                     <p class="lead-black-m">The ease of working with Ferris with it's ability to rewire services at will and integrate across clouds and services Agility into engineering.</p>
-                    <p class="lead-black-m">Ferris FX uses the Apprise Python Libs as an engine for notifiation dispatch. The power of Apprise gives you access to over 40 notification services.</p>
-                    <p class="lead-black-m">...
-
-</p>
+                    <p class="lead-black-m">Ferris FX uses the Apprise Python Libs as an engine for notifiation dispatch. The power of Apprise gives you access to over 40 notification services. In order to send notifications from your package you need is to create and emit a pre-defined event type.</p>
+                    <p class="lead-black-m">A complete list is provided on the Ferris Documentation site.</p>
                     <br>
                     <a class="read-more" style="color: var(--clr-accent-red)"
-				        href="https://docs.ferrislabs.net/docs/integrations/" target="_blank" >Learn more in the Integrations Guide
+				        href="https://docs.ferris.ai/docs/integrations/" target="_blank" >Learn more in the Integrations Guide
 			        </a>
                 </div>
             <div>
@@ -156,30 +154,30 @@ keywords: "integrations"
         <div class="three-columns">
             <div class="column-databases">
                 <h3 class="fw-bold">AWS SES</h3>
-                <img src="/img/brand_images/aws_ses.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/aws_ses.svg" alt="AWS SES"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Discord</h3>
-                <img src="/img/brand_images/discord.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/discord.svg" alt="Discord"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">IFTTT</h3>
-                <img src="/img/brand_images/ifttt.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/ifttt.svg" alt="IFTTT"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
         </div>
     </div>
@@ -190,30 +188,30 @@ keywords: "integrations"
         <div class="three-columns">
             <div class="column-databases">
                 <h3 class="fw-bold">Mattermost</h3>
-                <img src="/img/brand_images/mattermost.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/mattermost.svg" alt="Mattermost"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Microsoft Teams</h3>
-                <img src="/img/brand_images/microsoft_teams.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/microsoft_teams.svg" alt="Microsoft Teams"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
             <div class="column-databases">
                 <h3 class="fw-bold">Slack</h3>
-                <img src="/img/brand_images/slack.svg" alt="Amazon Redshift"/>
+                <img src="/img/brand_images/slack.svg" alt="Slack"/>
                 <h3 class="fw-regular">
                     Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
                 </h3>
                 <br>
-                <p style="font-size: var(--fs-400); text-align: right"><a href="#">more</a></p>
+                <p style="font-size: var(--fs-400); text-align: right"><a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">more</a></p>
             </div>
         </div>
     </div>
@@ -221,7 +219,7 @@ keywords: "integrations"
 
 <div style="text-align: center;">
     <button class="button" data-type="inverted" style="margin: 2rem auto; display: block;">
-	<a href="https://docs.ferrislabs.net/docs/integrations/notifications_and_messaging/" target="_blank">All Integrations</a></button>
+	<a href="https://docs.ferris.ai/docs/integrations/notifications_and_messaging/" target="_blank">All Integrations</a></button>
 </div>
 
 <!-- Aivie Web Tracker -->
