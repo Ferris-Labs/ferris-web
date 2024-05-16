@@ -11,8 +11,11 @@ keywords: "quickstarter, ferrislabs, getting started"
 </section>
 
 <!-- The Login & Registration Intro -->
-<section class="padding-block-700" style="background-color: var(--clr-neutral-lightgray);">
-    <div class="container">
+<section class="padding-block-900" style="background-color: var(--clr-primary-white);">
+    <div class="container" style="background-color: var(--clr-neutral-lightgray); border:2px solid var(--clr-primary-white); padding: 1rem; border-radius: 10px; box-shadow: 10px 10px 5px #ccc;
+					-moz-box-shadow: 10px 10px 5px #ccc;
+					-webkit-box-shadow: 10px 10px 5px #ccc;
+					-khtml-box-shadow: 10px 10px 5px #ccc;">
         <div class="flow text-left-sm-only margin" style="--flow-spacer: 1.5rem">
             <h2 class="fs-secondary-heading fw-bold">
                 Getting Started</h2>
@@ -25,7 +28,13 @@ keywords: "quickstarter, ferrislabs, getting started"
             <div class="grid-buttons"></div>
             <div class="grid-buttons">
                 <div>
-                    <button class="button" style="padding: 1em 2em;"><a href="https://home.sb.ferris.ai" target="_blank">Login</a></button>
+                    <button class="button" style="padding: 1em 2em; 
+                    border:2px solid var(--clr-primary-white); 
+                    box-shadow: 5px 5px 5px #ccc;
+					-moz-box-shadow: 5px 5px 5px #ccc;
+					-webkit-box-shadow: 5px 5px 5px #ccc;
+					-khtml-box-shadow: 5px 5px 5px #ccc">
+                    <a href="https://home.sb.ferris.ai" target="_blank">Login</a></button>
                     <br>
                     <br>
                     <a class="lead-black-s" style="color: var(--clr-accent-red); margin-top: 5rem" href="https://keycloak.sb.ferris.ai/realms/ferris/login-actions/reset-credentials?client_id=ferris-apps-client&tab_id=HjUhIQ84frI" target="_blank">Forgot your password?</a>
@@ -33,7 +42,13 @@ keywords: "quickstarter, ferrislabs, getting started"
             </div>
             <div class="grid-buttons">
                 <div>
-                    <button class="button" style="padding: 1em 1em;"><a href="https://keycloak.sb.ferris.ai/realms/ferris/login-actions/registration?client_id=ferris-apps-client&tab_id=akBVaEIBi9s" target="_blank">Register</a></button>
+                    <button class="button" style="padding: 1em 2em; 
+                    border:2px solid var(--clr-primary-white); 
+                    box-shadow: 5px 5px 5px #ccc;
+					-moz-box-shadow: 5px 5px 5px #ccc;
+					-webkit-box-shadow: 5px 5px 5px #ccc;
+					-khtml-box-shadow: 5px 5px 5px #ccc">
+                    <a href="https://home.sb.ferris.ai" target="_blank">Register</a></button>
                     <br>
                     <br>
                     <a class="lead-black-s" style="color: var(--clr-accent-red); margin-top: 5rem"href="https://m.ferrislabs.net/fl-profile-data" target="_blank">Complete your Ferris profile</a>
@@ -210,7 +225,7 @@ keywords: "quickstarter, ferrislabs, getting started"
 <!-- Horizontal Line  -->
 <hr class="hr-text-black" data-content="NEED HELP" style="margin-block: 3rem" />
 
-<!-- Inspiration Section -->
+<!-- Book Help/Demo Section -->
 <section class="padding-block-700" style="background-color: var(--clr-primary-white);">
     <div class="container">
         <h2 class="fs-secondary-heading fw-bold">Help is a Click Away</h2>
@@ -253,44 +268,50 @@ keywords: "quickstarter, ferrislabs, getting started"
 <!-- Horizontal Line  -->
 <hr class="hr-text-black" data-content="GET IN TOUCH" style="margin-block: 3rem" />
 
-<!-- Program Benefits-->
+<!-- Help Channels Section-->
 <section class="padding-block-700" style="padding-bottom: 5rem">
     <div class="container">
         <div class="three-columns">
             <div class="column-noborder" style="padding-inline: 10px">
-                <img src="/img/brand_images/slack-black-icon.png"
-                alt="Diamond Icon"
-                style="padding-block: 1.2rem; max-height: 100px"/>
-                    <h3 class="fs-sub-heading fw-bold">User Community</h3>
-                    <p class="fw-regular"
-                        style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
-                        Meet and interact with fellow Ferris Engineers on Slack for personal and hands-on suppport.
-                    </p>
-                    <br>
-                    <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://app.slack.com/client/T01J0BRLR4G/G01KJA5C9FY" target="_blank">Slack
-			        </a>
-                    <br>
-            </div>
-            <div class="column-noborder" style="padding-inline: 10px">
-                <img src="/img/brand_images/github-black-icon.png"
-                alt="Diamond Icon"
-                style="padding-block: 1.2rem; max-height: 100px"/>
-                    <h3 class="fs-sub-heading fw-bold">Support Ticket</h3>
-                    <p class="fw-regular"
-                        style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
-                        For more in-depth issues, submit a ticket with your questions, findings and suggestions.
-                    </p>
-                    <br>
-                    <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://app.slack.com/client/T01J0BRLR4G/D02DDU4TSKG" target="_blank">Github
-			        </a>
-                    <br>
-            </div>
-            <div class="column-noborder" style="padding-inline: 10px">
-                <img src="/img/brand_images/twitter-black-icon.png"
+                <a href="https://app.slack.com/client/T01J0BRLR4G/G01KJA5C9FY" target="_blank">
+                    <img src="/img/brand_images/slack-black-icon.png"
                     alt="Diamond Icon"
                     style="padding-block: 1.2rem; max-height: 100px"/>
+                </a>
+                <h3 class="fs-sub-heading fw-bold">User Community</h3>
+                <p class="fw-regular"
+                    style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
+                    Meet and interact with fellow Ferris Engineers on Slack for personal and hands-on support.
+                </p>
+                <br>
+                <a class="read-more" style="color: var(--clr-accent-red)"
+                href="https://app.slack.com/client/T01J0BRLR4G/G01KJA5C9FY" target="_blank">Slack
+                </a>
+                <br>
+            </div>
+            <div class="column-noborder" style="padding-inline: 10px">
+                <a href="https://github.com/Ferris-Labs" target="_blank">
+                    <img src="/img/brand_images/github-black-icon.png"
+                    alt="Diamond Icon"
+                    style="padding-block: 1.2rem; max-height: 100px"/>
+                </a>
+                <h3 class="fs-sub-heading fw-bold">Support Ticket</h3>
+                <p class="fw-regular"
+                    style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
+                    For more in-depth issues, submit a ticket with your questions, findings and suggestions.
+                </p>
+                <br>
+                <a class="read-more" style="color: var(--clr-accent-red)"
+                href="https://github.com/Ferris-Labs" target="_blank">Github
+                </a>
+                <br>
+            </div>
+            <div class="column-noborder" style="padding-inline: 10px">
+                <a href="https://twitter.com/ferrislabs" target="_blank">
+                    <img src="/img/brand_images/twitter-black-icon.png"
+                    alt="Diamond Icon"
+                    style="padding-block: 1.2rem; max-height: 100px"/>
+                </a>
                 <h3 class="fs-sub-heading fw-bold">User Guide</h3>
                 <p class="fw-regular"
                     style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
@@ -298,11 +319,11 @@ keywords: "quickstarter, ferrislabs, getting started"
                 </p>
                 <br>
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://twitter.com/ferrislabs" target="_blank">X
-			    </a>
+                href="https://twitter.com/ferrislabs" target="_blank">X
+                </a>
                 <br>
             </div>
-	    </div>
+        </div>
     </div>
     <br>
 </section>
