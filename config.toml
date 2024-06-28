@@ -32,8 +32,10 @@ taxonomyCloud = ["tags", "categories"]
 taxonomyCloudTitle = ["Tag Cloud", "Categories"]
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
-taxonomyPageHeader = ["tags", "categories"]
+# taxonomyPageHeader = ["tags", "categories"]
 
+#Learn Element for the FAQ page
+theme = "learn"
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -98,6 +100,7 @@ section = ["HTML", "RSS"]
 [params]
 copyright = "FERRIS LABS AG"
 privacy_policy = "https://policies.google.com/privacy"
+mainSections = ["faq"]
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]

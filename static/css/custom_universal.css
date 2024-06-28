@@ -148,10 +148,10 @@ body {
   color: var(--clr-primary-black);
 }
 
-p:not([class]) {
+/* p:not([class]) {
   font-size: var(--fs-lead-m);
   color: var(--clr-primary-white);
-}
+} */
 
 .lead-heading {
   max-width: 40ch;

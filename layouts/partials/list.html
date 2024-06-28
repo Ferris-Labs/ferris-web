@@ -1,0 +1,24 @@
+<!-- Header / tagline block-->
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }}
+  </head>
+
+  <body>
+    <div id="all">{{ partial "faq.html" . }}</div>
+    <!-- /#all -->
+  </body>
+</html>
+
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<form id="search-form">
+  <input type="text" id="search-box" placeholder="Search..." />
+</form>
+<ul>
+  {{ range .Pages }}
+  <li>{{ .Title }}</li>
+  {{ end }}
+</ul>
+{{ end }}

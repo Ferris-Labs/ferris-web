@@ -860,7 +860,7 @@ footer .grid-container li a:hover {
 }
 
 .column-border a,
-.column-noborder a, 
+.column-noborder a,
 .column-databases a {
   color: var(--clr-primary-black);
   text-decoration: underline;
@@ -891,7 +891,7 @@ footer .grid-container li a:hover {
 .column-databases img {
   max-height: 80px;
   margin: 1rem auto 1.5rem auto;
-  padding: 1rem auto 1rem auto;  
+  padding: 1rem auto 1rem auto;
 }
 
 @media (max-width: 50em) {
@@ -1147,7 +1147,7 @@ footer .grid-container li a:hover {
 }
 
 .accordion:after {
-  content: "\02795";
+  /* content: "\02795"; */
   /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: var(--clr-primary-white);
@@ -1156,7 +1156,7 @@ footer .grid-container li a:hover {
 }
 
 .active:after {
-  content: "\2796";
+  /* content: "\2796"; */
   /* Unicode character for "minus" sign (-) */
   color: var(--clr-primary-white);
 }
@@ -1226,7 +1226,10 @@ footer .grid-container li a:hover {
   padding: 20px;
   text-align: center;
   overflow: hidden; /* Hide overflow content */
-  transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease; /* Smooth transitions */
+  transition:
+    transform 0.5s ease,
+    background-color 0.5s ease,
+    color 0.5s ease; /* Smooth transitions */
 }
 
 .grid-12-item:hover {
@@ -1304,31 +1307,162 @@ footer .grid-container li a:hover {
   margin: 0 auto;
 }
 
-/* CSS classes for anchor element */
-#td-block-{{ .Ordinal }} {
-  /* Your styles here */
+/* FAQ Page */
+#faq-page {
+  margin: 20px;
+  color: var(--clr-primary-black);
 }
 
-/* CSS classes for section element */
-.row {
-  /* Your styles here */
+#faq-search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-.td-box {
-  /* Your styles here */
+.faq-item {
+  margin-bottom: 10px; /* Reduced margin between FAQ items */
+  position: relative;
 }
 
-/* CSS classes for container element */
-.container {
-  /* Your styles here */
+.faq-question {
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 10px; /* Remove bottom margin */
+  color: var(--clr-primary-black);
+  font-size: var(--fs-650);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  transition:
+    background-color 0.3s,
+    color 0.5s;
 }
 
-/* CSS classes for text element */
-.h4 {
-  /* Your styles here */
+.faq-question::after {
+  content: "\005E";
+  font-size: 2rem;
+  color: var(--clr-primary-black);
+  transition: transform 0.5s;
 }
 
-/* CSS classes for span element */
-.mb-0 {
-  /* Your styles here */
+.faq-question.active::after {
+  transform: rotate(180deg);
+  color: var(--clr-neutral-gray);
+}
+
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: transparent;
+  font-size: var(--fs-600);
+  opacity: 0; /* Start with invisible content */
+  transition:
+    max-height 0.5s ease-out,
+    opacity 0.5s ease-out,
+    padding 0.5s ease-out;
+}
+
+.faq-content.active {
+  display: block;
+  max-height: 1000px;
+  opacity: 1;
+  transition:
+    max-height 0.5s ease-in,
+    opacity 0.5s ease-in,
+    padding 0.5s ease-in;
+}
+
+.faq-answer {
+  font-weight: normal;
+  color: var(--clr-primary-black);
+  background-color: transparent;
+  white-space: pre-wrap;
+  margin: 0.5rem 0; /* Consistent margin between answer blocks */
+  text-align: justify;
+}
+
+.faq-answer ol,
+.faq-answer ul {
+  margin: 0.5rem 0 0.5rem 1.5rem; /* Consistent margins for lists */
+  padding-left: 0;
+}
+
+.faq-answer li {
+  list-style-position: outside;
+  padding-left: 0.5rem;
+}
+
+.faq-category,
+.faq-tags {
+  font-weight: normal;
+  margin: 0.5rem 0; /* Consistent margins for category and tags */
+  color: var(--clr-primary-black);
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--clr-primary-light);
+  color: var(--clr-primary-dark);
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.wrap {
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 3rem;
+}
+
+.searchButton {
+  width: 50px;
+  height: 40px;
+  border: 3px solid var(--clr-primary-black);
+  border-radius: 0 5px 5px 0;
+  background: var(--clr-primary-black);
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font-size: var(--fs-600);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.searchTerm {
+  flex: 1;
+  border: 2px solid var(--clr-primary-black);
+  border-right: none;
+  padding: 0 10px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--clr-primary-black);
+}
+
+.searchTerm:focus {
+  color: var(--clr-primary-black);
+}
+
+#faq-list {
+  text-align: left;
+  color: var(--clr-primary-black);
+  width: 50%; /* Narrow the width to 50% */
+  margin: 0 auto;
+}
+
+#text-block {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }

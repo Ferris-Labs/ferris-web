@@ -1,0 +1,15 @@
+<div class="faq-item">
+  <h3 class="faq-question" onclick="toggleFAQ(this)">{{ .Get "question" }}</h3>
+  <div class="faq-content">
+    <div class="faq-answer">{{ .Inner | markdownify }}</div>
+    <!-- <div class="faq-category" style="margin-top: 10px">
+      Category: {{ .Page.Params.category }}
+    </div> -->
+    <div class="faq-tags" style="margin-top: 10px">
+      Tags: {{ range .Page.Params.tags }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<hr />
