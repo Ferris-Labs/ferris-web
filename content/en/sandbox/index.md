@@ -98,7 +98,7 @@ keywords: "quickstarter, ferrislabs, getting started"
 			</div>
 			<div class="grid-3-item">
                 <a class="read-more" style="color: var(--clr-accent-red)"
-				    href="https://docs.ferris.ai/docs/fx/developer_guide/deploy_a_service/" target="_blank">Deploying Services
+				    href="https://docs.ferris.ai/docs/security/" target="_blank">Sercurity Integration
 			    </a>
 			</div>
 			<div class="grid-3-item">
@@ -217,7 +217,7 @@ keywords: "quickstarter, ferrislabs, getting started"
         <div style="text-align: center;">
             <a class="read-more"
                 style="color: var(--clr-accent-red);"
-                href="https://docs.ferris.ai/docs/">More Use Cases</a>
+                href="https://docs.ferris.ai/docs/solutions/">More Use Cases</a>
         </div>
     </div>
 </section>
@@ -312,7 +312,7 @@ keywords: "quickstarter, ferrislabs, getting started"
                     alt="Diamond Icon"
                     style="padding-block: 1.2rem; max-height: 100px"/>
                 </a>
-                <h3 class="fs-sub-heading fw-bold">User Guide</h3>
+                <h3 class="fs-sub-heading fw-bold">User Community</h3>
                 <p class="fw-regular"
                     style="color: var(--clr-primary-black); text-align: left; font-size: var(--fs-400); opacity: 0.7;">
                     Join us on X (twitter) for an interactive dialog about Event based Engineering and Mircroservices.

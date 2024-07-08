@@ -1320,14 +1320,14 @@ footer .grid-container li a:hover {
 }
 
 .faq-item {
-  margin-bottom: 10px; /* Reduced margin between FAQ items */
+  margin-bottom: 10px;
   position: relative;
 }
 
 .faq-question {
   cursor: pointer;
   font-weight: normal;
-  margin-bottom: 10px; /* Remove bottom margin */
+  margin-bottom: 10px;
   color: var(--clr-primary-black);
   font-size: var(--fs-650);
   display: flex;
@@ -1336,8 +1336,22 @@ footer .grid-container li a:hover {
   background-color: transparent;
   transition:
     background-color 0.3s,
-    color 0.5s;
+    color 0.5s,
+    margin-bottom 0.3s,
+    padding-inline 0.3s;
 }
+
+.faq-question.active {
+  background-color: var(--clr-neutral-lightgray);
+  margin-bottom: 0;
+  padding-inline: 1rem;
+  transition:
+    background-color 0.3s,
+    margin-bottom 0.3s,
+    padding-inline 0.3s;
+}
+
+
 
 .faq-question::after {
   content: "\005E";
@@ -1354,9 +1368,10 @@ footer .grid-container li a:hover {
 .faq-content {
   max-height: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: var(--clr-neutral-lightgray);
+  padding-inline: 1rem;
   font-size: var(--fs-600);
-  opacity: 0; /* Start with invisible content */
+  opacity: 0;
   transition:
     max-height 0.5s ease-out,
     opacity 0.5s ease-out,
@@ -1403,7 +1418,7 @@ footer .grid-container li a:hover {
 .tag {
   display: inline-block;
   background-color: var(--clr-primary-light);
-  color: var(--clr-primary-dark);
+  color: var(--clr-accent-blue);
   padding: 2px 5px;
   border-radius: 3px;
   margin-right: 5px;
